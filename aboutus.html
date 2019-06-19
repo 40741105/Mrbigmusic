@@ -10,22 +10,14 @@
 	<link rel="icon" href="images/big.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images/big.ico" type="image/x-icon" />
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="main.css" />
 
 	<title>大人物音樂教室</title>
 	<style>
 	body{
 		font-family: Microsoft JhengHei;
 	}
-	.navbar{
-		background-color: #000000;
-		argin: 0 ;
-		padding: 2px;
-	}
-	#nav-logo{
-		width: 50px;
-		height: 50px;
-	}
-
 	.container{
 		max-width: 1800px;
 		min-height: 100%;
@@ -72,7 +64,6 @@
 		letter-spacing: 0.5em;
 		overflow: hidden;
 	}
-
 	.ml16 .letter {
 		display: inline-block;
 		line-height: 1em;
@@ -82,40 +73,29 @@
 		align-content: center;
 		font-size: 30px;
 	}
-
-
 </style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-	<a class="navbar-brand" href="http://mrbigmusic.ml/home.html#"><img id="nav-logo" src="https://imgur.com/ZcCgw1E.jpg" alt=""></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarNavDropdown">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="http://mrbigmusic.ml/home.html#">首頁<span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					產品介紹
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					<a class="dropdown-item" href="#">吉他與貝斯</a>
-					<a class="dropdown-item" href="#">烏克麗麗</a>
-					<a class="dropdown-item" href="#">配件</a>
+	<!-- Header -->
+			<header id="header">
+
+				<div class="inner">
+					<div class="content">
+						<h1>Mr.Big</h1>
+						<h2>The music room in Taiwan<br />
+						that has sport space.</h2>
+						<a href="home.html" class="button big alt"><span>Home</span></a>
+						<a href="goods.html" class="button big alt"><span>Goods</span></a>
+						<a href="event.html" class="button big alt"><span>Event</span></a>
+						<a href="aboutus.html" class="button big alt"><span>About</span></a>
+
+						
+
+					</div>
+					<a href="#" class="button hidden"><span>Home</span></a>
+
 				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">活動資訊</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="#">關於我們</a>
-			</li>
-		</ul>
-	</div>
-	</nav>
+			</header>
 	<div class="container-flure ">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -179,28 +159,38 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.291011279711!2d120.4240791149804!3d23.701299684613584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346eba06436d6707%3A0x3be094c0493fca3b!2z5aSn5Lq654mp5qiC5Zmo!5e0!3m2!1szh-TW!2stw!4v1560863217532!5m2!1szh-TW!2stw" width="1080" height="450" frameborder="0" style="border:0; " allowfullscreen alt="大人物音樂教室"></iframe>
 		</div>
 	</div>
-
-
-
-
-
-	<div class="footer">
-		<div class="row">
-			<div class="col-lg-6">
-				<p style="text-align:right;">營業時間：平日14:00-22:00　假日10:00-22:00<br>
-				營業地址：雲林縣虎尾鎮林森路二段320號　 　</p>
-			</div>
-			<div class="col-lg-6 ">
-				<div class="icon">
-					關注我們：
-					<a href="https://www.facebook.com/mrbigmusicstudio/"　target="_blank"><img src="https://www.newsmarket.com.tw/herbcides/files/2017/05/fb-icon.png" width="25px" alt=""></a>　　
-					<a href="https://instagram.com/mrbigmusicstudio?igshid=1m2jl6c2wipfw"　target="_blank"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" width="25px" alt=""></a>
+	<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>Vestibulum hendrerit tortor id gravida</h3>
+						<p>In tempor porttitor nisl non elementum. Nulla ipsum ipsum, feugiat vitae vehicula vitae, imperdiet sed risus. Fusce sed dictum neque, id auctor felis. Praesent luctus sagittis viverra. Nulla erat nibh, fermentum quis enim ac, ultrices euismod augue. Proin ligula nibh, pretium at enim eget, tempor feugiat nulla.</p>
+					</div>
+					<div class="copyright">
+						<div class="row">
+							<div class="col-md-6">
+								<h3>Follow me</h3>
+								<ul class="icons">
+									<li><a href="https://www.facebook.com/mrbigmusicstudio/"　target="_blank"><img src="https://www.newsmarket.com.tw/herbcides/files/2017/05/fb-icon.png" width="25px" alt=""><span class="label">Facebook</span></a></li>
+									<li><a href="https://instagram.com/mrbigmusicstudio?igshid=1m2jl6c2wipfw"　target="_blank"><img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" width="25px" alt=""><span class="label">Instagram</span></a></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<h3>營業時間</h3>
+									<p>平日14:00-22:00<br>
+									假日10:00-22:00</p>
+							</div>
+						</div>
+						&copy; 2019 大人物音樂教室 All Rights Reserved.
+					</div>
 				</div>
-			</div>
+			</footer>
 
-		</div>
-		<p style="text-align: center;">Copyright © 2019 大人物音樂教室 All Rights Reserved.</p>
-	</div>
+
+
+
+	
 
 
 	<!-- Optional JavaScript -->
@@ -215,7 +205,6 @@
 		$('.ml16').each(function(){
 			$(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 		});
-
 		anime.timeline({loop: true})
 		.add({
 			targets: '.ml16 .letter',
@@ -233,6 +222,12 @@
 			delay: 9999999999,
 		});
 	</script>
+	<!-- Scripts -->
+			<script src="jquery.min.js"></script>
+			<script src="skel.min.js"></script>
+			<script src="util.js"></script>
+			<script src="main.js"></script>
 
 </body>
 </html>
+
